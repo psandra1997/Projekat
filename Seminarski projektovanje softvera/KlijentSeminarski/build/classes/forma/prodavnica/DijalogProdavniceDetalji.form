@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Prodavnica"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblMaticniBroj" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                      <Component id="lblPIB" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNazivProdavnice" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAdresa" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblTekuciRacun" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblBrojTelefona" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDelatnost" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMesto" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtMaticniBroj" max="32767" attributes="0"/>
+                              <Component id="txtPIB" max="32767" attributes="0"/>
+                              <Component id="txtNazivProdavnice" max="32767" attributes="0"/>
+                              <Component id="txtAdresa" max="32767" attributes="0"/>
+                              <Component id="txtTekuciRacun" max="32767" attributes="0"/>
+                              <Component id="txtBrojTelefona" max="32767" attributes="0"/>
+                              <Component id="txtDatumOsnivanja" max="32767" attributes="0"/>
+                              <Component id="comboMesto" pref="254" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="57" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="btnEdit" alignment="0" max="32767" attributes="0"/>
+                              <Component id="btnUpdate" alignment="0" max="32767" attributes="0"/>
+                              <Component id="btnSave" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="rb52450" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="rb52480" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnEdit" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblMaticniBroj" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMaticniBroj" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblPIB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtPIB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtNazivProdavnice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNazivProdavnice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblAdresa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAdresa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblTekuciRacun" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTekuciRacun" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUpdate" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblBrojTelefona" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtBrojTelefona" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDelatnost" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb52450" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb52480" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtDatumOsnivanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblMesto" min="-2" max="-2" attributes="0"/>
+                              <Component id="comboMesto" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="btnSave" alignment="1" min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="43" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblMaticniBroj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Maticni broj:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMaticniBroj">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPIB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PIB:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPIB">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNazivProdavnice">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naziv:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNazivProdavnice">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAdresa">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Adresa:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAdresa">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTekuciRacun">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tekuci racun:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTekuciRacun">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBrojTelefona">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Broj telefona:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBrojTelefona">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDelatnost">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sifra delatnosti:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDatum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Datum osnivanja (yyyy-MM-dd):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDatumOsnivanja">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMesto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mesto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboMesto">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEdit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Omoguci izmenu"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnUpdate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Azuriraj"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSave">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sacuvaj"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb52450">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="52450"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb52480">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="52480"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Mobilni telefon"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="lblMemorija" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="rb16GB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rb32GB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rb64GB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="rb128GB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblMarka" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblBoja" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblCenaTelefona" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtCena" pref="226" max="32767" attributes="0"/>
+                                      <Component id="txtBoja" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblNazivMT" max="32767" attributes="0"/>
+                                          <Component id="lblSifra" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblDimenzija" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtDimenzija" min="-2" pref="231" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtNazivMT" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="comboMarka" pref="234" max="32767" attributes="0"/>
+                                          <Component id="txtSifra" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblProcesor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblBaterija" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblBrojKamera" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="rbTri" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="rbCetiri" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="rbPet" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="txtBaterija" min="-2" pref="231" max="-2" attributes="0"/>
+                                      <Component id="txtProcesor" min="-2" pref="231" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="70" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="btnEdit" max="32767" attributes="0"/>
+                              <Component id="btnUpdate" max="32767" attributes="0"/>
+                              <Component id="btnDelete" max="32767" attributes="0"/>
+                              <Component id="btnSave" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblSifra" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtSifra" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="lblNazivMT" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txtNazivMT" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="btnEdit" min="-2" pref="39" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblMarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="comboMarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblDimenzija" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDimenzija" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnUpdate" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblProcesor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtProcesor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblBaterija" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtBaterija" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblBrojKamera" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbCetiri" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbTri" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbPet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="btnDelete" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblMemorija" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb16GB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb32GB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb64GB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rb128GB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblBoja" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtBoja" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblCenaTelefona" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCena" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="22" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="37" max="32767" attributes="0"/>
+                          <Component id="btnSave" min="-2" pref="42" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnUpdate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Azuriraj"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEdit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Omoguci izmenu"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDelete">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Obrisi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSave">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sacuvaj"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSifra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sifra:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSifra">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNazivMT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naziv:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNazivMT">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDimenzija">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dimenzija: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDimenzija">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblProcesor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Procesor: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBaterija">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Baterija: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBrojKamera">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Broj kamera: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMemorija">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Memorija: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBoja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Boja: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMarka">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Marka:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtProcesor">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBaterija">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBoja">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboMarka">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbCetiri">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4 kamere"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbTri">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3 kamere"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb16GB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="16 GB"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb32GB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="32 GB"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb64GB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="64 GB"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rb128GB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="128 GB"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbPet">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5 kamera"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCenaTelefona">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cena:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCena">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
